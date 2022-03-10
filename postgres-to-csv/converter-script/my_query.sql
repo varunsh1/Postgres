@@ -1,0 +1,1 @@
+\COPY (select * from stc_threshold) TO 'stc_threshold.csv' (format CSV);
